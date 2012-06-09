@@ -1,0 +1,75 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Georgia, serif;
+	color: white;
+	background: black;
+	font-size:  16px;
+	padding-top: 4.21875em;
+}
+
+#bg {
+	overflow: hidden;
+	height:   34.1875em;
+	width:	  81.875em;
+	margin:   auto;
+}
+
+#bg img {
+	width: 			117%;
+	margin-top: -46.4375em;
+	position: 	relative;
+	z-index: 	  1;
+}
+
+#black {
+	background: black;
+	opacity: 		0.32;
+	height: 		100%;
+	width: 			100%;
+	position: 	relative;
+	z-index: 		2;
+}
+
+#wrapper {
+	margin:   auto;
+	width: 		81.875em;
+	position: relative;
+	z-index: 	3;
+}
+
+#info {
+	margin-top: -40.75em;
+	padding-top: 9em;
+	padding-left: 2.25em;
+}
+
+h1, h2 {
+	font-size:   1.42em;
+	font-weight: bold;			
+}
+
+#timer {
+	margin: -1.1125em 0 1.1em 0.1875em;
+}
+
+#timer span {
+	font-size: 7em;
+}
+
+h2 span {
+	color: #B6FEE2;
+}
+
+h3 {
+	font-weight: normal;
+}
+
+.details {
+	padding: 		 0 0 0.25em 0.625em;
+	border-left: 0.5625em solid white;
+	margin: 		 1.5em 0 1.5em 0.6875em;
+}
