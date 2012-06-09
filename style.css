@@ -11,40 +11,48 @@ body {
 	padding-top: 4.21875em;
 }
 
-#bg {
-	overflow: hidden;
+#bg, #wrapper {
 	height:   34.1875em;
 	width:	  81.875em;
 	margin:   auto;
+	position: relative;
+}
+
+#bg {
+	z-index: 	  1;
+	overflow: hidden;
+}
+
+#bg, #black {
+	margin-bottom: -34.1875em;
 }
 
 #bg img {
 	width: 			117%;
-	margin-top: -46.4375em;
-	position: 	relative;
-	z-index: 	  1;
+	margin-top: -12.4375em;
+}
+
+#wrapper {
+	z-index: 	2;
+}
+
+#black, #info {
+	width: 			 33%;
+	margin-left: 3em;
+	position: 	 relative;
+	padding:     0 1.625em 0 1.825em;
 }
 
 #black {
 	background: black;
-	opacity: 		0.32;
+	opacity: 		0.7;
 	height: 		100%;
-	width: 			100%;
-	position: 	relative;
-	z-index: 		2;
-}
-
-#wrapper {
-	margin:   auto;
-	width: 		81.875em;
-	position: relative;
-	z-index: 	3;
+	z-index: 		1;
 }
 
 #info {
-	margin-top: -40.75em;
-	padding-top: 9em;
-	padding-left: 2.25em;
+	padding-top: 3em;
+	z-index: 		 2;
 }
 
 h1, h2 {
@@ -57,7 +65,7 @@ h1, h2 {
 }
 
 #timer span {
-	font-size: 7em;
+	font-size: 4.5em;
 }
 
 h2 span {
